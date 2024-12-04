@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Bike 3D - Product Detail</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* CSS for the layout */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #ccc;
+        }
+
+        .product-detail img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .extra-notes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .note-box {
+            background-color: #fff;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            width: 48%;
+            box-sizing: border-box;
+            transition: transform 0.3s ease;
+        }
+
+        .note-box:hover {
+            transform: scale(1.05);
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #f76c6c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        button:hover {
+            background-color: #ff4040;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Indian Bike 3D</h1>
+            <p><strong>Price: $10</strong></p>
+        </header>
+
+        <section class="product-detail">
+            <img src="1.png" alt="Indian Bike 3D">
+            <div class="description">
+                <p><strong>Product Description:</strong><br>
+                Ye ek 3D Indian Bike hai jo aapke GTA mod game mein use ho sakti hai. Isme aapko detailed textures aur advanced mechanics milenge, jo aapke gaming experience ko next level tak le jayenge.</p>
+
+                <p><strong>Features:</strong></p>
+                <ul>
+                    <li>3D Bike Model</li>
+                    <li>Realistic textures</li>
+                    <li>Advanced mechanics for smooth gameplay</li>
+                    <li>Compatibility with GTA V and other mod platforms</li>
+                </ul>
+            </div>
+
+            <button>Add to Cart</button>
+        </section>
+
+        <!-- Extra Notes Section -->
+        <section class="extra-notes">
+            <div class="note-box">
+                <h3>Installation Guide</h3>
+                <p>Step-by-step installation instructions for your mod.</p>
+                <button onclick="window.location.href='installation_guide.html'">View Details</button>
+            </div>
+            <div class="note-box">
+                <h3>FAQs</h3>
+                <p>Frequently asked questions about the product.</p>
+                <button onclick="window.location.href='faqs.html'">View Details</button>
+            </div>
+            <div class="note-box">
+                <h3>Customer Reviews</h3>
+                <p>Read what customers are saying about this product.</p>
+                <button onclick="window.location.href='reviews.html'">View Details</button>
+            </div>
+            <div class="note-box">
+                <h3>Video Preview</h3>
+                <p>Watch a video showcasing the Indian Bike 3D in action.</p>
+                <button onclick="window.location.href='video_preview.html'">View Details</button>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
